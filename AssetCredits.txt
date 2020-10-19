@@ -1,0 +1,9 @@
+Background - https://wallpapersden.com/city-building-sunshine-pixel-art-wallpaper/3840x2400/
+
+Splash Effect title - https://www.freepik.com/free-vector/grunge-background_1368147.htm#page=1&query=splat&position=14
+
+Title Font - https://www.1001freefonts.com/cyrus-the-virus.font
+
+title background sprites:
+	skull - https://www.onlinewebfonts.com/icon/505558
+	flask - https://www.iconfinder.com/icons/353413/flask_icon
