@@ -21,6 +21,8 @@ public class Manager : MonoBehaviour
         {
             _instance = this;
         }
+
+        Time.timeScale = 1;
     }
     #endregion
 
@@ -30,6 +32,10 @@ public class Manager : MonoBehaviour
 
     //Card Variables
     GameObject choiceCard;
+
+    //Audio Variables
+    AudioSource audioSource;
+    public Slider audioSlider;
 
     //Timer Variables
     float countdownTimer = 0f;
@@ -70,6 +76,8 @@ public class Manager : MonoBehaviour
     {
         defeatScreen.SetActive(false);
         winScreen.SetActive(false);
+
+        audioSource = this.GetComponent<AudioSource>();
 
         countdownTimer = timer;
 
@@ -190,6 +198,12 @@ public class Manager : MonoBehaviour
             half = false;
             threequarter = false;
         }
+    }
+
+    //Audio
+    public void ChangeAudio()
+    {
+        audioSource.volume = audioSlider.value;
     }
 
     #region ManipulateStatsFunctions
