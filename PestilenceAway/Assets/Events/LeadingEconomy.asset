@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1f4dcc8f4f2174d866edb39362c569, type: 3}
+  m_Name: LeadingEconomy
+  m_EditorClassIdentifier: 
+  name: Leading Economy
+  description: Despite the plague's best efforts to stop your country dead in its
+    tracks you have persevered in these trying times. The stable economy helps people
+    forget of the misery outside and encourages scientists to work harder for a solution.
+  minimumCure: 15
+  maximumCure: 100
+  minimumCureSpeed: 0
+  maximumCureSpeed: 0
+  minimumPlague: 0
+  maximumPlague: 0
+  minimumPlagueSpeed: 0
+  maximumPlagueSpeed: 0
+  minimumMoney: 125
+  maximumMoney: 200
+  minimumHappiness: 20
+  maximumHappiness: 200
+  effectOnCure: 0
+  effectOnCureSpeed: 1.5
+  effectOnPlague: 0
+  effectOnPlagueSpeed: 0
+  effectOnMoney: 15
+  effectOnHappiness: 50

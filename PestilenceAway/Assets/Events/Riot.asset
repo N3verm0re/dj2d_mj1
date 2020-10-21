@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1f4dcc8f4f2174d866edb39362c569, type: 3}
+  m_Name: Riot
+  m_EditorClassIdentifier: 
+  name: Riot
+  description: People are very discontent with current management of the situation
+    and are throwing riots in the streets. High contact between individuals causes
+    plague to spread but at least the people are calming down.
+  minimumCure: 0
+  maximumCure: 0
+  minimumCureSpeed: 0
+  maximumCureSpeed: 0
+  minimumPlague: 0
+  maximumPlague: 0
+  minimumPlagueSpeed: 1
+  maximumPlagueSpeed: 100
+  minimumMoney: 0
+  maximumMoney: 0
+  minimumHappiness: 0
+  maximumHappiness: 20
+  effectOnCure: 0
+  effectOnCureSpeed: 0
+  effectOnPlague: 10
+  effectOnPlagueSpeed: 1.5
+  effectOnMoney: 0
+  effectOnHappiness: 30

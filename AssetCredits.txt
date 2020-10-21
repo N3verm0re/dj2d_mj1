@@ -4,6 +4,16 @@ Splash Effect title - https://www.freepik.com/free-vector/grunge-background_1368
 
 Title Font - https://www.1001freefonts.com/cyrus-the-virus.font
 
-title background sprites:
-	skull - https://www.onlinewebfonts.com/icon/505558
-	flask - https://www.iconfinder.com/icons/353413/flask_icon
+smile icon - https://pngio.com/images/png-a1164074.html
+
+skull icon - https://www.onlinewebfonts.com/icon/505558
+
+flask icon - https://www.iconfinder.com/icons/353413/flask_icon
+
+coin icon - https://www.onlinewebfonts.com/icon/456589
+
+clock icon - https://www.flaticon.com/free-icon/clock_223404
+
+cross icon - https://www.iconfinder.com/icons/1398917/incorrect_cross_invalid_close_x_circle_delete_icon
+
+check icon - https://www.iconfinder.com/icons/1398912/correct_success_mark_yes_tick_circle_check_icon

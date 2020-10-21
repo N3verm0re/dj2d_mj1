@@ -33,7 +33,7 @@ public class GamePause : MonoBehaviour
     public void Resume()
     {
         pauseMenu.SetActive(false);
-        gameUI.SetActive(true);
+        //gameUI.SetActive(true);
         Time.timeScale = 1f;
         gamePaused = false;
     }
@@ -41,7 +41,7 @@ public class GamePause : MonoBehaviour
     void Pause()
     {
         pauseMenu.SetActive(true);
-        gameUI.SetActive(false);
+        //gameUI.SetActive(false);
         Time.timeScale = 0f;
         gamePaused = true;
     }
@@ -49,5 +49,10 @@ public class GamePause : MonoBehaviour
     public void MenuButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+    public void ReplayGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

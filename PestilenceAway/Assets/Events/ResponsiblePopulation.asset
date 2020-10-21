@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1f4dcc8f4f2174d866edb39362c569, type: 3}
+  m_Name: ResponsiblePopulation
+  m_EditorClassIdentifier: 
+  name: Responsible Population
+  description: The people are happy with your ruling during this time of crisis.
+    Your efforts towards a cure and moral leadership earned the people's trust and
+    they have begun working towards helping the economy while staying safe from the
+    virus.
+  minimumCure: 20
+  maximumCure: 100
+  minimumCureSpeed: 2
+  maximumCureSpeed: 100
+  minimumPlague: 0
+  maximumPlague: 0
+  minimumPlagueSpeed: 0
+  maximumPlagueSpeed: 0
+  minimumMoney: 20
+  maximumMoney: 200
+  minimumHappiness: 150
+  maximumHappiness: 200
+  effectOnCure: 0
+  effectOnCureSpeed: 0.05
+  effectOnPlague: 0
+  effectOnPlagueSpeed: -0.05
+  effectOnMoney: 50
+  effectOnHappiness: 20

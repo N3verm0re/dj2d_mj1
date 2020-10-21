@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1f4dcc8f4f2174d866edb39362c569, type: 3}
+  m_Name: ResearchBreakthrough
+  m_EditorClassIdentifier: 
+  name: Research Breakthrough
+  description: Hardworking men of science have come through for you and your country
+    in this time of need. Your encourajment to their research has proven fruitful
+    as a research breakthrough towards the cure is celebrated.
+  minimumCure: 0
+  maximumCure: 0
+  minimumCureSpeed: 2.1
+  maximumCureSpeed: 100
+  minimumPlague: 0
+  maximumPlague: 0
+  minimumPlagueSpeed: 0
+  maximumPlagueSpeed: 0
+  minimumMoney: 15
+  maximumMoney: 200
+  minimumHappiness: 0
+  maximumHappiness: 0
+  effectOnCure: 20
+  effectOnCureSpeed: 0
+  effectOnPlague: 0
+  effectOnPlagueSpeed: 0
+  effectOnMoney: 0
+  effectOnHappiness: 20

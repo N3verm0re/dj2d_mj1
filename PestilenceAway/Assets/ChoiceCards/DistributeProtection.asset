@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06e15f9ce014df4abc45d380b1ef388, type: 3}
+  m_Name: DistributeProtection
+  m_EditorClassIdentifier: 
+  name: Our Shields against the Virus
+  description: The Plague is resourceful, it has many ways to find its way into our
+    people and cause them much suffering, but we are too. We can give the people
+    many tools and protections for them to fight back the disease, but it will cost
+    us... Do we distribute our aid to the people?
+  spriteArt: {fileID: 21300000, guid: 4bce3c54360ebf94e963da1279631990, type: 3}
+  effectOnCure1: 0
+  effectOnCureSpeed1: 0
+  effectOnPlague1: -3
+  effectOnPlagueSpeed1: -1.5
+  effectOnMoney1: -25
+  effectOnHappiness1: 30
+  effectOnCure2: 0
+  effectOnCureSpeed2: 0
+  effectOnPlague2: 3
+  effectOnPlagueSpeed2: 1
+  effectOnMoney2: 0
+  effectOnHappiness2: -25
